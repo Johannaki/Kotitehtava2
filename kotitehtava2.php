@@ -16,7 +16,7 @@
      <form action="kotitehtava2.php" method="post">
        <p>Montako tähteä haluat nähdä viimeisellä rivillä?:</p>
        <input type="number" name="numeroni" value="" min="1" autofocus><br>
-       <input type="submit" value="Arvaa"><br><br>
+       <input type="submit" value="Näytä"><br><br>
      </form>
 <?php
 $numero=$_POST['numeroni'];

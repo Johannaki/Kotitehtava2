@@ -1,8 +1,9 @@
+
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
      <meta charset="UTF-8">
-     <title>Kotitehtävä2</title>
+     <title></title>
      <style>
      body {background-color: #fff3ef; padding: 40px;}
      h2   {color: #5e5940;}
@@ -17,17 +18,17 @@
        <input type="number" name="numeroni" value="" min="1" autofocus><br>
        <input type="submit" value="Arvaa"><br><br>
      </form>
+<?php
+$numero=$_POST['numeroni'];
 
-     <?php
-     $numero=$_POST['numeroni'];
+$a = 1;
+$tahti = '*';
 
-     $a = 1;
-     $tahti = '*';
+while ($a <= $numero) {
+  echo str_repeat($tahti, $a). "<br>";
+  $a++;
+}
+?>
 
-     while ($a <= $numero) {
-       echo str_repeat($tahti, $a). "<br>";
-       $a++;
-     }
-     ?>
-   </body>
+</body>
 </html>

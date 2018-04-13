@@ -23,6 +23,11 @@
 
      $a = 1;
 
+     while ($a <= $numero) {
+       echo "". "<br>";
+       $a++;
+     }
+
      ?>
    </body>
 </html>

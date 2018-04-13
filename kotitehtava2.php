@@ -21,6 +21,8 @@
      <?php
      $numero=$_POST['numeroni'];
 
+     $a = 1;
+
      ?>
    </body>
 </html>

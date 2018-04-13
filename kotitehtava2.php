@@ -19,7 +19,7 @@
      </form>
 
      <?php
-     echo "test";
+     $numero=$_POST['numeroni'];
 
      ?>
    </body>

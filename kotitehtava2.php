@@ -22,6 +22,7 @@
      $numero=$_POST['numeroni'];
 
      $a = 1;
+     $tahti = '*';
 
      while ($a <= $numero) {
        echo "". "<br>";

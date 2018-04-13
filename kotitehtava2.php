@@ -19,6 +19,7 @@
      </form>
 
      <?php
+     echo "test";
 
      ?>
    </body>

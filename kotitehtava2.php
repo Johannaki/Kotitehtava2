@@ -25,10 +25,9 @@
      $tahti = '*';
 
      while ($a <= $numero) {
-       echo "". "<br>";
+       echo str_repeat($tahti, $a). "<br>";
        $a++;
      }
-
      ?>
    </body>
 </html>

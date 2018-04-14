@@ -12,7 +12,7 @@
      </style>
    </head>
    <body>
-     <h2>Tehtävä 1</h2>
+     <h2>Tehtävä 2</h2>
      <form action="kotitehtava2.php" method="post">
        <p>Montako tähteä haluat nähdä viimeisellä rivillä?:</p>
        <input type="number" name="numeroni" value="" min="1" autofocus><br>
